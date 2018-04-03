@@ -1,0 +1,117 @@
+body
+{
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    cursor: progress;
+    background-image: url(content/background.jpg);
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-repeat:round;
+}
+
+.plus
+{
+    color:firebrick;
+    font-size: 8px;
+}
+
+.plus:hover
+{
+    color: blue;
+    font-size: 10px;
+}
+
+/*small
+{
+    font-size: 8px;
+}*/
+
+.spec:hover
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: hotpink;
+    cursor: not-allowed;
+}
+
+.ident
+{
+    height: 140px;
+    width: 110px;
+    float: right;
+    border: 3px solid coral;
+    box-shadow: 3px 3px 6px coral;
+}
+
+.ident:hover{
+    cursor: help;
+}
+
+.mention
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10px;
+    float: right;
+}
+
+mark
+{
+    background-color: aqua;
+}
+
+h2
+{
+    text-decoration: underline;
+    color: brown;
+}
+
+h1
+{
+    font-family: 'Barber Street', 'Trebuchet MS', serif;
+    font-size: 29px;
+    font-weight: 100;
+    color:brown;
+}
+
+#Ancre2
+{
+    text-align: center;
+}
+
+big
+{
+    color: white;
+    background-color: black;
+    border: 3px solid black;
+}
+
+big:hover{
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    cursor: crosshair
+}
+
+b
+{
+    color: chocolate;
+}
+
+hr
+{
+    border-top: 3px dotted;
+}
+
+li
+{
+    font-style: italic;
+}
+
+@font-face { /*Barber_Street*/
+    font-family: 'Barber Street';
+    src: url('content/Barber_Street.ttf');
+}
+
+section {
+    border: 1px dotted black;
+}
